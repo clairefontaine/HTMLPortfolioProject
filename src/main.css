@@ -1,7 +1,84 @@
 body, div, p, a, h1, h2, h3, h4, h5, h6, ul, ol, li {
-padding: 0;
-border: 0;
-margin: 0;
-font-size: 100%;
-font: inherit;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
 }
+
+body {
+  font-size: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+h1, h2, h3, h4 {
+  margin: 10px 0 15px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+ul {
+  margin: 10px 0;
+}
+
+ul li {
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: underline;
+  color: #00b8d4;
+}
+
+a:hover {
+  background-color: #00b8d4;
+  color: white;
+}
+
+.content-wrapper {
+  line-height: 1.4;
+  padding: 30px 25px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/*
+ * HEADER
+ */
+
+header {
+  background: #444 url(header-background.jpg) top left no-repeat;
+  padding: 30px;
+  border-top: 4px solid #e91e63;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+ * MAIN
+ */
+
+.skills {
+  background-color: #e91e63;
+  color: white;
+}
+
+/*
+ * I need to apply what I learned in Journey Into Mobile before moving on to my next course.
+ */
